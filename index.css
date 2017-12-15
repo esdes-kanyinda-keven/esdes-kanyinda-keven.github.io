@@ -4,3 +4,13 @@
 body {
     width:100%;
 }
+#myButton {
+    transition: transform 1s;
+ }
+ 
+ .rotate {
+    transform: rotate(360deg);
+    transition: transform 1s;
+ }
+ 
+ 
