@@ -8,7 +8,7 @@ body {
     transition: transform 1s;
  }
  
- .rotate {
+.rotate {
     transform: rotate(360deg);
     transition: transform 1s;
  }
