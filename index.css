@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+html {
+    height:100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background-image: url("img/image1.jpg");
+    height:100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: black;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kavivanar', cursive;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.49);
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header h1:hover {
+    background-color: white;
+}
+
+section {
+    background-color: #FCD7E5;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-content: center;
+}
+
+article {
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kavivanar', cursive;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    /* background-image: url("img/image1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: color;
+    background-position: center;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    filter: grayscale(0);
+    overflow: hidden;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: color;
+    background-position: center;
+    z-index: -1;
+    filter: grayscale(1);
+    transition: all;
+}
+
+article h2 {
+    color: red;
+}
+
+article:hover .bg-img {
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+/* Images des articles*/
+#article1 {background-image: url("img/img1.jpg")}
+#article2 {background-image: url("img/img2.jpg")}
+#article3 {background-image: url("img/img3.jpg")}
+#article4 {background-image: url("img/img4.jpg")}
+#article5 {background-image: url("img/img5.jpg")}
+#article6 {background-image: url("img/img6.jpg")}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+    section { 
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    article {
+        width: 80%;
+    }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+}
+        
+/* For desktop: */
+@media only screen and (min-width: 900px) {
+
+}
+        
