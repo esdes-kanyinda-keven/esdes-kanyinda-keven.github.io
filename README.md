@@ -31,7 +31,7 @@ Image de fond : ville de Lyon.
 
  ## Page 3 - Compétences
 
-Dans la troisième page, il y aura un texte d'introduction et ensuite des pictos qui illustre mes compétences.
+Dans la troisième page, il y aura un texte d'introduction et ensuite des pictos qui illustrent mes compétences.
 
 Pas d'image de fond. 
 
