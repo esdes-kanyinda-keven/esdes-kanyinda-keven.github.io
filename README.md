@@ -40,7 +40,7 @@ Pas d'image de fond.
 
  ## Page 4 - Contact
 
- La page de contact aura un texte pour tout renseignement ou autre avec à la suite ma photo et un formulaire de contact.
+ La page de contact aura un texte avec à la suite ma photo et un formulaire de contact.
 
 ![Contact](/contact.png)
 
