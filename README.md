@@ -9,7 +9,7 @@ Le header sera constitué d'une image (mon logo) et de boutons qui renvoient sur
 
 Le header sera présent sur toutes les pages.
 
-![Header](img/header.png)
+![Header](/header.png)
 
 ## Page 1 - Accueil
 
@@ -17,7 +17,7 @@ La première page est la page d'accueil avec le header et en dessous une photo d
 
 Image de fond : ville de Lyon.
 
-![Accueil](img/accueil.png)
+![Accueil](/accueil.png)
 
  ## Page 2 - Parcours
 
@@ -27,22 +27,22 @@ Image de fond : ville de Lyon.
 
  Pas d'image de fond. 
 
- ![Parcours](img/parcours.png)
+ ![Parcours](/parcours.png)
 
  ## Page 3 - Compétences
 
-Dans la troisièeme page, il y aura un texte d'introduction et ensuite des pictos qui illustre mes compétences.
+Dans la troisième page, il y aura un texte d'introduction et ensuite des pictos qui illustre mes compétences.
 
 Pas d'image de fond. 
 
-![Compétences](img/competences.png)
+![Compétences](/competences.png)
 
 
  ## Page 4 - Contact
 
  La page de contact aura un texte pour tout renseignement ou autre avec à la suite ma photo et un formulaire de contact.
 
-![Contact](img/contact.png)
+![Contact](/contact.png)
 
  ## Footer
 
@@ -50,7 +50,7 @@ Pas d'image de fond.
 
  Le footer sera présent sur toutes les pages.
 
-![Footer](img/footer.png)
+![Footer](/footer.png)
 
 
 
