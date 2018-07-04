@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+#accueil {
+    width:100%;
+}
+body {
+    width:100%;
+    font-family: 'Kavivanar', cursive;
+    font-size: 17px;
+}
+#myButton {
+    transition: transform 1s;
+ }
+ 
+.rotate {
+    transform: rotate(360deg);
+    transition: transform 1s;
+ }
+
+section {
+    background-color: #FCD7E5;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    align-content: space-around;
+    
+}
+
+article {
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    /* background-image: url("img/image1.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    filter: grayscale(0);
+    overflow: hidden;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    filter: grayscale(1);
+    transition: all;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+h3{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation: example 2s infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: #000000;}
+    to {background-color: #FFFFFF;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #000000;}
+    to {background-color: #FFFFFF;}
+}
+}
+
+article h2 {
+    color: red;
+}
+
+article:hover .bg-img {
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+/* Images des articles*/
+#article1 {background-image: url("img/img1.jpg")}
+#article2 {background-image: url("img/img2.jpg")}
+#article3 {background-image: url("img/img3.jpg")}
+#article4 {background-image: url("img/img4.jpg")}
+#article5 {background-image: url("img/img5.jpg")}
+#article6 {background-image: url("img/img6.jpg")}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+    body {  
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    article {
+        width: 80%;
+    }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+}
+        
+/* For desktop: */
+@media only screen and (min-width: 900px) {
+
+}
+ 
